@@ -7,10 +7,16 @@
     "com.cobblemon.mod.common.client.gui.battle.BattleGUI": true,
     "me.shedaniel.clothconfig2.gui.ClothConfigScreen": false,
     "net.minecraft.class_434": false,
-    "com.cobblemon.mod.common.client.gui.interact.wheel.InteractWheelGUI": false
+    "com.cobblemon.mod.common.client.gui.interact.wheel.InteractWheelGUI": false,
+    "net.patchoulibutton.screen.PatchouliButtonScreen": false,
+    "dev.huskuraft.effortless.fabric.gui.MinecraftProxyScreen": false,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": false,
+    "net.minecraft.class_4895": false
   },
   "hideBackground": {
     "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
-    "com.cobblemon.mod.common.client.gui.summary.Summary": true
+    "com.cobblemon.mod.common.client.gui.summary.Summary": true,
+    "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
+    "net.minecraft.class_4895": true
   }
 }
