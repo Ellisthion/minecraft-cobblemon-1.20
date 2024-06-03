@@ -1,0 +1,14 @@
+{
+  "dimensionX": 24,
+  "dimensionY": 16,
+  "dimensionZ": 24,
+  "velocityRandomness": 1,
+  "caveDustEnabled": true,
+  "seaLevelCheck": true,
+  "superFlatStatus": false,
+  "upperLimit": 64.0,
+  "lowerLimit": -64.0,
+  "particleMultiplier": 2,
+  "particleMultiplierMultiplier": 1,
+  "particleID": 80
+}

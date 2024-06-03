@@ -1,0 +1,15 @@
+/*
+/*/
+
+!/config/
+!/defaultconfigs/
+!/kubejs/
+!/packmenu/
+
+!/.gitignore
+!/todo.txt
+!/README.md
+!/CHANGELOG.md
+
+config/jei/
+config/defaultoptions/servers.dat
