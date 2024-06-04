@@ -12,12 +12,24 @@
     "dev.huskuraft.effortless.fabric.gui.MinecraftProxyScreen": false,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": false,
     "net.minecraft.class_4895": false,
-    "com.cobblemon.mod.common.client.gui.interact.partyselect.PartySelectGUI": false
+    "com.cobblemon.mod.common.client.gui.interact.partyselect.PartySelectGUI": false,
+    "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackScreen": false,
+    "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": false,
+    "net.quackimpala7321.crafter.gui.screen.ingame.CrafterScreen": false,
+    "com.tom.storagemod.gui.CraftingTerminalScreen": false,
+    "draylar.inmis.ui.BackpackHandledScreen": false,
+    "com.supermartijn642.core.gui.WidgetScreen": false
   },
   "hideBackground": {
     "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
     "com.cobblemon.mod.common.client.gui.summary.Summary": true,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": true,
-    "net.minecraft.class_4895": true
+    "net.minecraft.class_4895": true,
+    "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackScreen": true,
+    "com.mrcrayfish.backpacked.client.gui.screen.CustomiseBackpackScreen": true,
+    "net.quackimpala7321.crafter.gui.screen.ingame.CrafterScreen": true,
+    "com.tom.storagemod.gui.CraftingTerminalScreen": true,
+    "draylar.inmis.ui.BackpackHandledScreen": true,
+    "com.supermartijn642.core.gui.WidgetScreen": true
   }
 }

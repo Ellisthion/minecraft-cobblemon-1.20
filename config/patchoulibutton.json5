@@ -1,8 +1,8 @@
 {
 	// Patchouli book identifier
-	"bookIdentifier": "",
-	"posX": 127,
+	"bookIdentifier": "cobblepedia:cobblepedia",
+	"posX": 104,
 	"posY": 61,
 	// If false, open directly modpack book
-	"openAllBooksScreen": true
+	"openAllBooksScreen": false
 }
