@@ -12,7 +12,7 @@ terrainSlopes:2
 terrainDepth:true
 footsteps:true
 flowers:true
-coordinates:true
+coordinates:false
 hoveredBiome:true
 biomeColorsVanillaMode:false
 waypoints:true

@@ -11,7 +11,8 @@
     "net.patchoulibutton.screen.PatchouliButtonScreen": false,
     "dev.huskuraft.effortless.fabric.gui.MinecraftProxyScreen": false,
     "vazkii.patchouli.client.book.gui.GuiBookLanding": false,
-    "net.minecraft.class_4895": false
+    "net.minecraft.class_4895": false,
+    "com.cobblemon.mod.common.client.gui.interact.partyselect.PartySelectGUI": false
   },
   "hideBackground": {
     "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,

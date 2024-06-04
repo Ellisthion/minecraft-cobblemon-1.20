@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = is_daytime
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 

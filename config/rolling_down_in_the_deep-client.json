@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "strafeRollStrength": 2.5,
+  "strafeYawStrength": 1.0,
+  "strafeDoStrafe": true,
+  "smoothing": {
+    "smoothingEnabled": true,
+    "strafeSmoothingEnabled": true,
+    "values": {
+      "pitch": 0.5,
+      "yaw": 0.5,
+      "roll": 0.5
+    }
+  }
+}
