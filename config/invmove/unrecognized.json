@@ -18,7 +18,8 @@
     "net.quackimpala7321.crafter.gui.screen.ingame.CrafterScreen": false,
     "com.tom.storagemod.gui.CraftingTerminalScreen": false,
     "draylar.inmis.ui.BackpackHandledScreen": false,
-    "com.supermartijn642.core.gui.WidgetScreen": false
+    "com.supermartijn642.core.gui.WidgetScreen": false,
+    "io.github.cottonmc.cotton.gui.client.CottonInventoryScreen": false
   },
   "hideBackground": {
     "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
@@ -30,6 +31,7 @@
     "net.quackimpala7321.crafter.gui.screen.ingame.CrafterScreen": true,
     "com.tom.storagemod.gui.CraftingTerminalScreen": true,
     "draylar.inmis.ui.BackpackHandledScreen": true,
-    "com.supermartijn642.core.gui.WidgetScreen": true
+    "com.supermartijn642.core.gui.WidgetScreen": true,
+    "io.github.cottonmc.cotton.gui.client.CottonInventoryScreen": true
   }
 }
