@@ -113,7 +113,7 @@
 			"debugRenderTimeRequired": false,
 			// Merges displays with equal contents under 1 display.
 			"mergeDisplayUnderOne": true,
-			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
+			"favoriteAddWidgetMode": "ALWAYS_INVISIBLE"
 		},
 		"accessibility": {
 			"entrySize": 1.0,
