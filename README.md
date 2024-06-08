@@ -25,9 +25,9 @@ The modpack is heavily based on the [official Cobblemon pack](https://modrinth.c
 
 ### Set up launcher
 
-1. Get your modded launcher. I recommend [Prism Launcher](https://prismlauncher.org/), but the [Modrinth Launcher](https://modrinth.com/app) should also work.
-2. You may need to point it at your Java instance, Java 17 or higher probably. If you've already installed Minecraft vanilla, it will have installed Java... somewhere. The standard launcher puts things in AppData or something. If you run vanilla, Task Manager will show the javaw.exe process for Minecraft, and you can use Open File Location to find it.
-3. Go to Settings -> Java
+1. Get your modded launcher. I recommend [Modrinth Launcher](https://modrinth.com/app), but [Prism Launcher](https://prismlauncher.org/), will also work.
+2. If using Prism, you'll need to point it at a Java 17 instance. Vanilla Minecraft installs it if you installed that. Modrinth Launcher sorts this out automatically.
+3. Find the Java settings. In Prism, that's in Settings -> Java
 4. Increase both the min and max memory allocation. They should be the same. I put 8192 MB in both fields.
 4. Specify JVM arguments to reduce stutter from the garbage collector. Paste the entire thing below into box.
 
