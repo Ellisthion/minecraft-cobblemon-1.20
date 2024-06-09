@@ -19,6 +19,8 @@ The modpack is heavily based on the [official Cobblemon pack](https://modrinth.c
 
 [Download current modpack](https://github.com/Ellisthion/minecraft-cobblemon-1.20/releases/latest)
 
+[View the changelog](/CHANGELOG.md)
+
 # Client Setup
 
 ## Fresh Install

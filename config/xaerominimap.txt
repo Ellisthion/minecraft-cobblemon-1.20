@@ -15,7 +15,7 @@ caveZoom:1
 showWaypoints:true
 showIngameWaypoints:true
 displayRedstone:true
-deathpoints:false
+deathpoints:true
 oldDeathpoints:false
 distance:1
 lockNorth:true

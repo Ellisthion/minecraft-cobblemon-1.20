@@ -1,0 +1,7 @@
+{
+  "moves": {
+    "selfdestruct": 10.0,
+    "explosion": 10.0,
+    "mistyexplosion": 10.0
+  }
+}

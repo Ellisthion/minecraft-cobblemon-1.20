@@ -1,0 +1,47 @@
+{
+  "useCounterIntegration": false,
+  "useCobblemonTrainersIntegration": false,
+  "badges": {
+    "badges": []
+  },
+  "checkSpawnWidth": -1,
+  "checkSpawnHeight": -1,
+  "findingAreaWidth": 100,
+  "findingAreaHeight": 100,
+  "pokemonFeatureWeights": {
+    "perfectIvs": {
+      "0": 0.0,
+      "1": 1.0,
+      "2": 2.0,
+      "3": 3.0,
+      "4": 4.0,
+      "5": 5.0,
+      "6": 6.0
+    },
+    "hiddenAbility": 1.0,
+    "eggMove": 1.0,
+    "highestLevel": 0.0,
+    "shiny": 10.0
+  },
+  "ignoredLabels": [
+    "not_modeled"
+  ],
+  "hiddenPokemon": [],
+  "titleCommandsPermissionLevel": 2,
+  "trainerContactInfo": {},
+  "customPokenavPredicates": [
+    0
+  ],
+  "counterIntegrationConfig": {
+    "levelOneStreak": 5,
+    "levelTwoStreak": 10,
+    "levelThreeStreak": 20,
+    "levelFourStreak": 30,
+    "levelZeroEggMoveChance": 0,
+    "levelOneEggMoveChance": 21,
+    "levelTwoEggMoveChance": 46,
+    "levelThreeEggMoveChance": 58,
+    "levelFourEggMoveChance": 65
+  },
+  "enableDebugMode": false
+}

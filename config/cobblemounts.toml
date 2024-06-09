@@ -1,0 +1,55 @@
+# useLogScaling = false : 
+# movement speed = ((pkmn speed / 256) * (scalar / 2)) + ((legendaryModifier * scalar) / 2)
+# useLogScaling = true :
+# movement speed = 2.5log((pkmn speed + scalar) / scalar) + legendaryModifier
+# For LINEAR scaling, a HIGHER scalar means MORE speed
+# LINEAR scaling means that every point of speed matters as much as every other
+# For LOGARITHMIC scaling, a HIGHER scalar means LESS speed
+# LOGARITHMIC scaling means that movement speed grows faster with low speed stats but slower with more speed stats
+# Basically : 
+# Linear : low investment, low rewards. medium investment, medium rewards. high investment, high reward.
+# Logarithmic : low investment, low-medium reward. medium investment, medium-high reward. high investment, medium-high rewards.
+# If unsure... leave those settings default. If you want to tinker with balance... here's a link to the graph compairing
+# the two modes of scaling for my math nerds : https://www.desmos.com/calculator/ccxdf7ll24
+
+# Ground speed isn't as versatile as flight, so it scales harder.
+# Ground speed .5 @ 100 spd
+# Ground speed 1 @ 250 spd
+# Ground speed 2 @ 600 spd
+groundCappedSpeed = true    # Linear default : true
+groundUseLogScaling = false # Linear default : false
+groundSpeedScalar = 0.5     # Linear default : 0.5
+groundSpeedCap = 2.0        # Linear default : 2.0
+
+# Flight is extremely versatile, so its capped at 2. Also, speed 1 is 
+# available relatively early for exploration, but speed 2 will require
+# a time investment in a speed 350 bird.
+# Flight speed 0.5 @ 100 spd
+# Flight speed 1 @ 200 spd
+# Flight speed 1.5 @ 350 spd
+flightCappedSpeed = true   # Linear default : true 
+flightUseLogScaling = true # Linear default : false 
+flightSpeedScalar = 450.0  # Linear default : 64.0
+flightSpeedCap = 1.75      # Linear default : 3.0
+
+# Swimming is the most niche ability, so it's uncapped and scales the hardest.
+# Swim speed 1 @ 70 spd
+# Swim speed 2 @ 200 spd
+# Swim speed 3 @ 350 spd 
+swimCappedSpeed = false  # Linear default : true
+swimUseLogScaling = true # Linear default : false
+swimSpeedScalar = 300.0  # Linear default : 64.0
+swimSpeedCap = 3.0       # Linear default : 3.0
+
+# Legendaries get a speed boost accounted for in the formula.
+# You may chose to let it bypass the speed caps.
+legendaryModifier = 0.5
+legendaryModifierCapBreak = true
+
+# Flying config
+allowFlying = true
+allowSwimming = true
+
+list = ['nidoking', 'Nidoking', 'nidoqueen', 'Nidoqueen', 'luxray', 'mamoswine', 'relicanth', 'espathra', 'dragonite', 'fearow', 'garchomp', 'dodrio', 'arcanine', 'Arcanine', 'steelix', 'stantler', 'avalugg', 'magnezone', 'stoutland', 'sawsbuck', 'mudsdale', 'ursaluna', 'metagross', 'corviknight', 'staraptor', 'charizard', 'swampert', 'rapidash', 'Rapidash', 'skeledirge', 'dewgong', 'tauros', 'TAuros', 'Tauros', 'tAuros', 'sharpedo', 'bouffalant', 'Exeggutor', 'exeggutor', 'camerupt', 'scolipede', 'blastoise', 'lapras', 'wyrdeer', 'gyarados', 'samurott', 'Samurott', 'tentacruel', 'meganium', 'feraligatr', 'golurk', 'pidgeot', 'venusaur', 'heracross', 'trevenant', 'megabeedrill', 'megakangaskhan', 'megapidgeot', 'megagyarados', 'megacharizardy', 'megapinsir', 'megaaerodactyl', 'megagengar', 'megacharizardx', 'megablastoise', 'megavenusaur', 'poliwrath', 'vileplume', 'golem', 'golbat', 'machamp', 'galvantula', 'onix', 'Onix', 'rhyhorn', 'aerodactyl', 'snorlax', 'articuno', 'Articuno', 'zapdos', 'Zapdos', 'moltres', 'Moltres', 'crobat', 'magcargo', 'donphan', 'tyranitar', 'lugia', 'ho-oh', 'sceptile', 'swellow', 'pelipper', 'lairon', 'aggron', 'wailmer', 'wailord', 'torkoal', 'flygon', 'altaria', 'milotic', 'tropius', 'sealeo', 'walrein', 'salamence', 'latias', 'latios', 'kyogre', 'groudon', 'rayquaza', 'grotle', 'torterra', 'bastiodon', 'vespiquen', 'floatzel', 'drifblim', 'hippowdon', 'drapion', 'togekiss', 'gliscor', 'palkia', 'dialga', 'heatran', 'regigigas', 'giratina', 'cresselia', 'arceus', 'serperior', 'zebstrika', 'boldore', 'gigalith', 'krookodile', 'darmanitan', 'crustle', 'braviary', 'mandibuzz', 'hydreigon', 'cobalion', 'terrakion', 'virizion', 'tornadus', 'thundurus', 'reshiram', 'zekrom', 'landorus', 'kyurem', 'keldeo', 'genesect', 'diggersby', 'talonflame', 'pyroar', 'xerneas', 'gogoat', 'tyrantrum', 'aurorus', 'yveltal', 'zygarde', 'volcanion', 'Volcanion', 'primarina', 'silvally', 'drampa', 'kommo-o', 'solgaleo', 'lunala', 'celesteela', 'guzzlord', 'naganadel', 'stakataka', 'melmetal', 'rillaboom', 'dubwool', 'sandaconda', 'centiskorch', 'copperajah', 'duraludon', 'dragapult', 'zacian', 'zamazenta', 'basculegion', 'Basculegion', 'kilowattrel', 'noivern', 'finizen', 'palafin', 'revaroom', 'cyclizar', 'cetitan', 'great tusk', 'slither wing', 'iron treads', 'roaring moon', 'koraidon', 'miraidon', 'walking wake', 'iron leaves', 'revavroom', 'araquanid', 'rampardos', 'liepard', 'kangaskhan', 'toedscruel', 'megagarchomp', 'megasteelix', 'goodra', 'Goodra', 'stonjourner', 'archeops', 'nihilego', 'scizor', 'skarmory', 'golisopod', 'arctozolt', 'dracozolt', 'arctovish', 'volcarona', 'iron moth']       # Which Pokemon you can or can't mount.
+alsoFlying = ['dragonite', 'fearow', 'garchomp', 'magnezone', 'metagross', 'corviknight', 'staraptor', 'charizard', 'pidgeot', 'heracross', 'megabeedrill', 'megapidgeot', 'megagyarados', 'megacharizardy', 'megapinsir', 'megaaerodactyl', 'megacharizardx', 'golbat', 'aerodactyl', 'articuno', 'Articuno', 'zapdos', 'moltres', 'Moltres', 'crobat', 'lugia', 'ho-oh', 'swellow', 'pelipper', 'flygon', 'altaria', 'tropius', 'salamence', 'latias', 'latios', 'rayquaza', 'vespiquen', 'drifblim', 'togekiss', 'gliscor', 'palkia', 'dialga', 'giratina', 'cresselia', 'arceus', 'braviary', 'mandibuzz', 'hydreigon', 'tornadus', 'thundurus', 'reshiram', 'zekrom', 'landorus', 'genesect', 'talonflame', 'yveltal', 'drampa', 'solgaleo', 'lunala', 'naganadel', 'dragapult', 'kilowattrel', 'noivern', 'roaring moon', 'archeops', 'nihilego', 'scizor', 'skarmory', 'volcarona', 'iron moth'] # Which Pokemons can fly, ignoring its types
+listUse = "whitelist"    # Set to "blacklist" or "whitelist" to control the behavior of the below list. If it is an invalid option or blank, the option isn't used.
