@@ -1,6 +1,22 @@
 # Version 1.2
+
+## Pokémon ##
 - Aggressive Pokémon will no longer attack unprovoked
 - TM machine can teach Tutor and Egg moves, where correctly configured
+- Shiny and Legendary spawns will be announced
+- Command to challenge another trainer with standardised levels, eg:
+  - /challenge Ellisthion level 50 nopreview
+- Tooltips for held items
+
+## Minecraft ##
+- Villagers follow emeralds
+- Villagers have button to re-roll trades
+- Trading post block for unified trades
+- Bartering station block for unified piglin bartering
+- Easier anvil and enchanting mechanics
+- Universal bonemeal
+- Craftable 'Spikes' for easier mob farms
+- Shulker box QoL
 
 # Version 1.1
 - CobbleMounts - ride your Pokémon!
