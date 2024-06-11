@@ -1,3 +1,7 @@
+# Version 1.2
+- Aggressive Pokémon will no longer attack unprovoked
+- TM machine can teach Tutor and Egg moves, where correctly configured
+
 # Version 1.1
 - CobbleMounts - ride your Pokémon!
 - Cobblemon Move Inspector - tooltips for moves in battle
