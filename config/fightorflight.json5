@@ -2,7 +2,7 @@
 	// Do more aggressive Pokemon fight back when provoked?
 	"do_pokemon_attack": true,
 	// Do especially aggressive Pokemon attack unprovoked?
-	"do_pokemon_attack_unprovoked": true,
+	"do_pokemon_attack_unprovoked": false,
 	// Do aggro Pokemon attack their targets even if they're in the middle of a battles?
 	"do_pokemon_attack_in_battle": false,
 	// The minimum level a Pokemon needs to be to fight back when provoked.
