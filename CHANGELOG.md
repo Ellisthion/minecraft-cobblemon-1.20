@@ -16,7 +16,6 @@
 - Easier anvil and enchanting mechanics
 - Universal bonemeal
 - Craftable 'Spikes' for easier mob farms
-- Shulker box QoL
 
 # Version 1.1
 - CobbleMounts - ride your Pokémon!
