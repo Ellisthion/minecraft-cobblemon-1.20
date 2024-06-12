@@ -5,6 +5,7 @@
 - TM machine can teach Tutor and Egg moves, where correctly configured
 - Shiny and Legendary spawns will be announced
 - Command to challenge another trainer with standardised levels, eg:
+  - /challenge Mutantflea
   - /challenge Ellisthion level 50 nopreview
 - Tooltips for held items
 
