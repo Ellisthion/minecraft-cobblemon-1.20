@@ -1,0 +1,36 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+	{
+            "id": "falinks_farm",
+            "pokemon": "falinks",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-32",
+            "weight": 600.00,
+            "condition": {
+		"canSeeSky": true,
+		"maxX": 453,
+		"minX": -611,
+		"maxZ": 570,
+		"minZ": -430,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+		],
+                "neededBaseBlocks": [
+                    "minecraft:mud_brick",
+                    "minecraft:packed_mud"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:grass_block"
+                ]
+            }
+        }
+    ]
+}

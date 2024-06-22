@@ -1,0 +1,32 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+	{
+            "id": "farfetchd_farm",
+            "pokemon": "farfetchd",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-17",
+            "weight": 400.00,
+            "condition": {
+		"canSeeSky": true,
+		"maxX": 453,
+		"minX": -611,
+		"maxZ": 570,
+		"minZ": -430,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+		],
+                "neededBaseBlocks": [
+                    "minecraft:grass_block"
+                ]
+            }
+        }
+    ]
+}
