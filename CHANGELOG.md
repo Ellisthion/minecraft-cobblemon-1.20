@@ -1,3 +1,9 @@
+# Version 1.3
+- Increased spawn rates of uncommon, rare, and ultra-rare Pokémon
+- Moved all starter Pokémon from ultra-rare to rare spawn category
+- Reduced northern spawn range of farm Pokémon
+- Adjust REI default config to let it fill more space
+
 # Version 1.2
 
 ## Pokémon ##
