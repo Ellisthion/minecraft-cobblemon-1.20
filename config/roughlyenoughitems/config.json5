@@ -74,7 +74,7 @@
 		"rainbow": false,
 		"horizontalEntriesBoundaries": 1.0,
 		"verticalEntriesBoundaries": 1.0,
-		"horizontalEntriesBoundariesColumns": 5,
+		"horizontalEntriesBoundariesColumns": 10,
 		"verticalEntriesBoundariesRows": 1000,
 		"horizontalEntriesBoundariesAlignment": 1.0,
 		"verticalEntriesBoundariesAlignment": 0.5,
