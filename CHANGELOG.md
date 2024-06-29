@@ -1,3 +1,6 @@
+# Version 1.4
+- Removed CobbleBoom - exploding Pokémon no longer cause Minecraft explosions
+
 # Version 1.3
 - Increased spawn rates of uncommon, rare, and ultra-rare Pokémon
 - Moved all starter Pokémon from ultra-rare to rare spawn category
