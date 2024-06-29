@@ -1,5 +1,10 @@
 # Version 1.4
 - Removed CobbleBoom - exploding Pokémon no longer cause Minecraft explosions
+- Added Chai's Build Tools - wrench, trowel, and bucket of clouds
+- Ability Patches and Capsules are now craftable
+- Fixed missing models for many Pokémon, especially Legendaries
+- Added gym badges (no crafting recipe, gym leaders use your admin powers)
+- Added some secret things
 
 # Version 1.3
 - Increased spawn rates of uncommon, rare, and ultra-rare Pokémon
