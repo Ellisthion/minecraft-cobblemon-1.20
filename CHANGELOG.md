@@ -3,6 +3,7 @@
 - Add Feebas, Milotic, and a few others nobody cares about
 - Add egg moves to Ceruledge
 - Add a few more music discs for Pokémon League
+- Add mod: Immersive Paintings
 
 # Version 1.4
 - Removed CobbleBoom - exploding Pokémon no longer cause Minecraft explosions
