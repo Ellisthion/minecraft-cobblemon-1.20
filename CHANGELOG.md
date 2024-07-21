@@ -1,6 +1,7 @@
 # Version 1.5
 - Add various unobtainable TM moves to certain level 60 Pokémon
 - Add Feebas, Milotic, and a few others nobody cares about
+- Add egg moves to Ceruledge
 
 # Version 1.4
 - Removed CobbleBoom - exploding Pokémon no longer cause Minecraft explosions
