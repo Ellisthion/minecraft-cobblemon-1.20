@@ -1,5 +1,5 @@
 # Version 1.5
-- 
+- Add various unobtainable TM moves to certain level 60 Pokémon
 
 # Version 1.4
 - Removed CobbleBoom - exploding Pokémon no longer cause Minecraft explosions
