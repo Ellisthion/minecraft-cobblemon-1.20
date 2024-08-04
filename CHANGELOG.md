@@ -1,3 +1,7 @@
+# Version 1.5.1
+- Add recipes for Rare Candy
+- Add recipes to refine XP candies to higher tiers
+
 # Version 1.5
 - Add various unobtainable TM moves to certain level 60 Pokémon
 - Add Feebas, Milotic, and a few others nobody cares about
